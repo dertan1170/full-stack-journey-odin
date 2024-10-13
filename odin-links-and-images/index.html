@@ -14,11 +14,24 @@
         <h2>Absolute Link</h2>
         <!-- noopener noreferrer is used for security and privacy -->
         <h4>_self opens hyperlink in same tab</h3>
-        <p><a href="https://www.theodinproject.com/about" target="_self" rel="noopener noreferrer">About The Odin Project</a></p>
+        <p>
+            <a href="https://www.theodinproject.com/about" target="_self" rel="noopener noreferrer">About The Odin Project</a>
+        </p>
         <h4>_blank opens hyperlink in another tab</h3>
-        <p><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a></p>
-        
+        <p>
+            <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+        </p>
         <h2>Relative Link</h2>
-            
+        <a href="./about.html">About</a>
+
+        <h2>Web Image</h2>
+        <p>
+            <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310">
+        </p>
+        <h2>Local Image</h2>
+        <!-- excluding height will make the image rescale proportionally based on the image size -->
+        <p>
+            <img src="./images/dog.jpg" alt="Image of a black dog" width="310">
+        </p>
     </body>
 </html>
